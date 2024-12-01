@@ -1,0 +1,25 @@
+{
+  "name": "typescript-markdown-processor",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "natural": "8.0.1",
+    "remark-parse": "11.0.0",
+    "remark-stringify": "11.0.0",
+    "unified": "11.0.5",
+    "vfile": "6.0.3"
+  },
+  "devDependencies": {
+    "@types/natural": "5.1.5",
+    "@types/node": "22.10.1",
+    "prettier": "3.4.1",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2",
+    "vitest": "2.1.6"
+  },
+  "packageManager": "pnpm@9.14.4+sha256.26a726b633b629a3fabda006f696ae4260954a3632c8054112d7ae89779e5f9a"
+}
