@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       natural:
-        specifier: 8.0.1
-        version: 8.0.1
+        specifier: 8.1.0
+        version: 8.1.0
       remark-parse:
         specifier: 11.0.0
         version: 11.0.0
@@ -902,8 +902,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  natural@8.0.1:
-    resolution: {integrity: sha512-VVw8O5KrfvwqAFeNZEgBbdgA+AQaBlHcXEootWU7TWDaFWFI0VLfzyKMsRjnfdS3cVCpWmI04xLJonCvEv11VQ==}
+  natural@8.1.0:
+    resolution: {integrity: sha512-qHKU+BzPXzEDwToFBzlI+3oI2jeN3xRNP421ifoF2Fw7ej+5zEO3Z5wUKPjz00jhz9/ESerIUGfhPqqkOqlWPA==}
     engines: {node: '>=0.4.10'}
 
   object-inspect@1.13.3:
@@ -2031,7 +2031,7 @@ snapshots:
 
   nanoid@3.3.8: {}
 
-  natural@8.0.1:
+  natural@8.1.0:
     dependencies:
       afinn-165: 1.0.4
       afinn-165-financialmarketnews: 3.0.0
