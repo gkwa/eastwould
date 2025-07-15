@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/natural": "6.0.1",
-    "@types/node": "22.16.3",
+    "@types/node": "22.16.4",
     "prettier": "3.6.2",
     "tsx": "4.20.3",
     "typescript": "5.8.3",
