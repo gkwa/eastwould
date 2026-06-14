@@ -28,8 +28,8 @@ importers:
         specifier: 6.0.1
         version: 6.0.1
       '@types/node':
-        specifier: 24.13.1
-        version: 24.13.1
+        specifier: 24.13.2
+        version: 24.13.2
       prettier:
         specifier: 3.8.4
         version: 3.8.4
@@ -41,7 +41,7 @@ importers:
         version: 6.0.3
       vitest:
         specifier: 4.1.8
-        version: 4.1.8(@types/node@24.13.1)(vite@7.1.11(@types/node@24.13.1)(tsx@4.22.4))
+        version: 4.1.8(@types/node@24.13.2)(vite@7.1.11(@types/node@24.13.2)(tsx@4.22.4))
 
 packages:
 
@@ -536,8 +536,8 @@ packages:
     resolution: {integrity: sha512-+f4QpMYE1IY9D5m+ortXYFdY+UlzjyLjPB2vLNSR51QbUCoC/6bzZXQ32VCE1MwWPWGzMFPJ6o5ob150b6yPVw==}
     deprecated: This is a stub types definition. natural provides its own type definitions, so you do not need this installed.
 
-  '@types/node@24.13.1':
-    resolution: {integrity: sha512-RSpUJGmvsJ1ZeBehQZFhIdpsz+bIpES0nIQXko4Ybq+N+kX6XvOq3Jo+iJ82FWLdblFq85AsMikd3m35jgezYg==}
+  '@types/node@24.13.2':
+    resolution: {integrity: sha512-fRa09kZTgu8o71KFcDjUFuc7F+dEbZYZmkI0mg5YBTRs0yMKjYHsq/c0urDKeDb+D5qVgXOdFcuu+DZPKOITwA==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -1394,7 +1394,7 @@ snapshots:
       - snappy
       - socks
 
-  '@types/node@24.13.1':
+  '@types/node@24.13.2':
     dependencies:
       undici-types: 7.18.2
 
@@ -1415,13 +1415,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.8(vite@7.1.11(@types/node@24.13.1)(tsx@4.22.4))':
+  '@vitest/mocker@4.1.8(vite@7.1.11(@types/node@24.13.2)(tsx@4.22.4))':
     dependencies:
       '@vitest/spy': 4.1.8
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.1.11(@types/node@24.13.1)(tsx@4.22.4)
+      vite: 7.1.11(@types/node@24.13.2)(tsx@4.22.4)
 
   '@vitest/pretty-format@4.1.8':
     dependencies:
@@ -2013,7 +2013,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@7.1.11(@types/node@24.13.1)(tsx@4.22.4):
+  vite@7.1.11(@types/node@24.13.2)(tsx@4.22.4):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.5.0(picomatch@4.0.3)
@@ -2022,14 +2022,14 @@ snapshots:
       rollup: 4.52.5
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.13.1
+      '@types/node': 24.13.2
       fsevents: 2.3.3
       tsx: 4.22.4
 
-  vitest@4.1.8(@types/node@24.13.1)(vite@7.1.11(@types/node@24.13.1)(tsx@4.22.4)):
+  vitest@4.1.8(@types/node@24.13.2)(vite@7.1.11(@types/node@24.13.2)(tsx@4.22.4)):
     dependencies:
       '@vitest/expect': 4.1.8
-      '@vitest/mocker': 4.1.8(vite@7.1.11(@types/node@24.13.1)(tsx@4.22.4))
+      '@vitest/mocker': 4.1.8(vite@7.1.11(@types/node@24.13.2)(tsx@4.22.4))
       '@vitest/pretty-format': 4.1.8
       '@vitest/runner': 4.1.8
       '@vitest/snapshot': 4.1.8
@@ -2046,10 +2046,10 @@ snapshots:
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.1.0
-      vite: 7.1.11(@types/node@24.13.1)(tsx@4.22.4)
+      vite: 7.1.11(@types/node@24.13.2)(tsx@4.22.4)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 24.13.1
+      '@types/node': 24.13.2
     transitivePeerDependencies:
       - msw
 
