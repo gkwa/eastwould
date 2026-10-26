@@ -167,8 +167,8 @@ importers:
   .:
     dependencies:
       natural:
-        specifier: 8.2.1
-        version: 8.2.1
+        specifier: 8.2.3
+        version: 8.2.3
       remark-parse:
         specifier: 11.0.0
         version: 11.0.0
@@ -1079,8 +1079,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  natural@8.2.1:
-    resolution: {integrity: sha512-1aElnBdixPv02UZNjQCgyIYeKI5/XKE8gu40RVBP7lcBRuCN6e8u1I+uhc5o5n0D2e1+I77OU8kIvYgwoJfMYQ==}
+  natural@8.2.3:
+    resolution: {integrity: sha512-q1rbmRmcNRnyrasBaBjNXRtMq7YwFi2nZZC4lbf2Sk7wbvmDcaQ1YxxjDK3FMHgZtTZ8oZsR9zm9ED8MNC988g==}
     engines: {node: '>=0.4.10'}
 
   obug@3.0.0:
@@ -1640,7 +1640,7 @@ snapshots:
 
   '@types/natural@6.0.1':
     dependencies:
-      natural: 8.2.1
+      natural: 8.2.3
     transitivePeerDependencies:
       - '@aws-sdk/credential-providers'
       - '@mongodb-js/zstd'
@@ -2064,7 +2064,7 @@ snapshots:
 
   nanoid@3.3.11: {}
 
-  natural@8.2.1:
+  natural@8.2.3:
     dependencies:
       afinn-165: 2.0.2
       afinn-165-financialmarketnews: 3.0.0
