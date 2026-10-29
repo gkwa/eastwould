@@ -7,7 +7,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "natural": "8.2.3",
+    "natural": "8.2.6",
     "remark-parse": "11.0.0",
     "remark-stringify": "11.0.0",
     "unified": "11.0.5",
